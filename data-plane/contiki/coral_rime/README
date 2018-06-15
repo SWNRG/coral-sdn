@@ -1,0 +1,8 @@
+Place the project in folder
+home/coral/coral_contiki/coral_rime
+
+Contiki should be in:
+home/contiki
+
+Compile for Zolertia with command:
+make TARGET=z1 coral.z1

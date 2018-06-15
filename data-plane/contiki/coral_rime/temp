@@ -1,0 +1,5 @@
+  CC        ../../../contiki/cpu/cc2538/./ieee-addr.c
+  CC        ../../../contiki/cpu/cc2538/cc2538.lds
+  CC        ../../../contiki/cpu/cc2538/./startup-gcc.c
+  CC        coral.c
+rm obj_zoul/startup-gcc.o
