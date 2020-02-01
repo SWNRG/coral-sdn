@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="cooja">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/cooja.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

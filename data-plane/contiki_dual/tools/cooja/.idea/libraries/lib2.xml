@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="lib2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/lib/log4j.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jdom.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/swingx-all-1.6.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/dist/lib/jsyntaxpane.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

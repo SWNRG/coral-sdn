@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lib3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/apps/avrora/lib/avrora-small.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apps/avrora/lib/cooja_avrora.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

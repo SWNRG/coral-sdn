@@ -1,0 +1,6 @@
+[20:47:07 - main] [Cooja.java:3181] [WARN] - JAVA_HOME environment variable not set, Cooja motes may not compile
+[20:47:07 - main] [Cooja.java:1359] [INFO] - > Starting Cooja
+[20:47:07 - main] [Cooja.java:2865] [INFO] - External tools default settings: /external_tools_linux_64.config
+[20:47:07 - main] [Cooja.java:2897] [WARN] - Error when reading user settings from: /home/joonki/.cooja.user.properties
+[20:47:07 - main] [Cooja.java:1365] [INFO] - > Creating simulation
+[20:47:13 - main] [Cooja.java:1370] [FATAL] - No simulation, aborting quickstart

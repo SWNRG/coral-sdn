@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="cooja-collect-view">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/apps/collect-view/cooja-collect-view.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

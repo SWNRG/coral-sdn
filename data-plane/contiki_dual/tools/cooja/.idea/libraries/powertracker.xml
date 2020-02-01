@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="powertracker">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/apps/powertracker/lib/powertracker.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

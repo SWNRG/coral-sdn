@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/apps/mspsim/lib/cooja_mspsim.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apps/mspsim/lib/coffee.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apps/mspsim/lib/jipv6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apps/mspsim/lib/mspsim.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

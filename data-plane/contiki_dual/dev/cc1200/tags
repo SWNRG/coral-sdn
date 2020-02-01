@@ -1,0 +1,471 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACK_LEN	cc1200.c	259;"	d	file:
+ADDR_CHECK_FAILED	cc1200.c	222;"	d	file:
+ADDR_CHECK_OK	cc1200.c	224;"	d	file:
+ADDR_CHECK_OK_ACK_SEND	cc1200.c	226;"	d	file:
+APPENDIX_LEN	cc1200.c	107;"	d	file:
+APPEND_STATUS	cc1200.c	139;"	d	file:
+APPEND_STATUS	cc1200.c	150;"	d	file:
+APPEND_STATUS	cc1200.c	158;"	d	file:
+BUSYWAIT_UNTIL	cc1200.c	288;"	d	file:
+BUSYWAIT_UNTIL_STATE	cc1200.c	359;"	d	file:
+BUSYWAIT_UNTIL_STATE	cc1200.c	369;"	d	file:
+CC1200_802154G	cc1200-conf.h	91;"	d
+CC1200_802154G	cc1200-conf.h	93;"	d
+CC1200_802154G_CRC16	cc1200-conf.h	111;"	d
+CC1200_802154G_CRC16	cc1200-conf.h	114;"	d
+CC1200_802154G_WHITENING	cc1200-conf.h	100;"	d
+CC1200_802154G_WHITENING	cc1200-conf.h	102;"	d
+CC1200_ADC_TEST	cc1200-const.h	199;"	d
+CC1200_AES	cc1200-const.h	206;"	d
+CC1200_AES_BUFFER0	cc1200-const.h	248;"	d
+CC1200_AES_BUFFER1	cc1200-const.h	247;"	d
+CC1200_AES_BUFFER10	cc1200-const.h	238;"	d
+CC1200_AES_BUFFER11	cc1200-const.h	237;"	d
+CC1200_AES_BUFFER12	cc1200-const.h	236;"	d
+CC1200_AES_BUFFER13	cc1200-const.h	235;"	d
+CC1200_AES_BUFFER14	cc1200-const.h	234;"	d
+CC1200_AES_BUFFER15	cc1200-const.h	233;"	d
+CC1200_AES_BUFFER2	cc1200-const.h	246;"	d
+CC1200_AES_BUFFER3	cc1200-const.h	245;"	d
+CC1200_AES_BUFFER4	cc1200-const.h	244;"	d
+CC1200_AES_BUFFER5	cc1200-const.h	243;"	d
+CC1200_AES_BUFFER6	cc1200-const.h	242;"	d
+CC1200_AES_BUFFER7	cc1200-const.h	241;"	d
+CC1200_AES_BUFFER8	cc1200-const.h	240;"	d
+CC1200_AES_BUFFER9	cc1200-const.h	239;"	d
+CC1200_AES_KEY0	cc1200-const.h	232;"	d
+CC1200_AES_KEY1	cc1200-const.h	231;"	d
+CC1200_AES_KEY10	cc1200-const.h	222;"	d
+CC1200_AES_KEY11	cc1200-const.h	221;"	d
+CC1200_AES_KEY12	cc1200-const.h	220;"	d
+CC1200_AES_KEY13	cc1200-const.h	219;"	d
+CC1200_AES_KEY14	cc1200-const.h	218;"	d
+CC1200_AES_KEY15	cc1200-const.h	217;"	d
+CC1200_AES_KEY2	cc1200-const.h	230;"	d
+CC1200_AES_KEY3	cc1200-const.h	229;"	d
+CC1200_AES_KEY4	cc1200-const.h	228;"	d
+CC1200_AES_KEY5	cc1200-const.h	227;"	d
+CC1200_AES_KEY6	cc1200-const.h	226;"	d
+CC1200_AES_KEY7	cc1200-const.h	225;"	d
+CC1200_AES_KEY8	cc1200-const.h	224;"	d
+CC1200_AES_KEY9	cc1200-const.h	223;"	d
+CC1200_AGC_CFG0	cc1200-const.h	68;"	d
+CC1200_AGC_CFG1	cc1200-const.h	67;"	d
+CC1200_AGC_CFG2	cc1200-const.h	66;"	d
+CC1200_AGC_CFG3	cc1200-const.h	65;"	d
+CC1200_AGC_CS_THR	cc1200-const.h	63;"	d
+CC1200_AGC_GAIN0	cc1200-const.h	169;"	d
+CC1200_AGC_GAIN1	cc1200-const.h	168;"	d
+CC1200_AGC_GAIN2	cc1200-const.h	167;"	d
+CC1200_AGC_GAIN3	cc1200-const.h	166;"	d
+CC1200_AGC_GAIN_ADJUST	cc1200-const.h	64;"	d
+CC1200_AGC_REF	cc1200-const.h	62;"	d
+CC1200_ANALOG_SPARE	cc1200-const.h	143;"	d
+CC1200_ANG0	cc1200-const.h	178;"	d
+CC1200_ANG1	cc1200-const.h	177;"	d
+CC1200_ARCH_H	cc1200-arch.h	36;"	d
+CC1200_ASK_CFG	cc1200-const.h	85;"	d
+CC1200_ASK_SOFT_RX_DATA	cc1200-const.h	172;"	d
+CC1200_ATEST	cc1200-const.h	201;"	d
+CC1200_ATEST_LVDS	cc1200-const.h	202;"	d
+CC1200_ATEST_MODE	cc1200-const.h	203;"	d
+CC1200_AUTOCAL	cc1200-conf.h	177;"	d
+CC1200_AUTOCAL	cc1200-conf.h	179;"	d
+CC1200_BIST	cc1200-const.h	149;"	d
+CC1200_BURST_BIT	cc1200-const.h	300;"	d
+CC1200_CAL_TIMEOUT_SECONDS	cc1200-conf.h	198;"	d
+CC1200_CAL_TIMEOUT_SECONDS	cc1200-conf.h	201;"	d
+CC1200_CARRIER_SENSE	cc1200-const.h	312;"	d
+CC1200_CARRIER_SENSE_VALID	cc1200-const.h	311;"	d
+CC1200_CFM_RX_DATA_OUT	cc1200-const.h	170;"	d
+CC1200_CFM_TX_DATA_IN	cc1200-const.h	171;"	d
+CC1200_CHAN_BW	cc1200-const.h	56;"	d
+CC1200_CHFILT_I0	cc1200-const.h	181;"	d
+CC1200_CHFILT_I1	cc1200-const.h	180;"	d
+CC1200_CHFILT_I2	cc1200-const.h	179;"	d
+CC1200_CHFILT_Q0	cc1200-const.h	184;"	d
+CC1200_CHFILT_Q1	cc1200-const.h	183;"	d
+CC1200_CHFILT_Q2	cc1200-const.h	182;"	d
+CC1200_CONST_CCA_THRESHOLD_MAX	cc1200-const.h	333;"	d
+CC1200_CONST_CCA_THRESHOLD_MIN	cc1200-const.h	332;"	d
+CC1200_CONST_H_	cc1200-const.h	36;"	d
+CC1200_CONST_TX_POWER_MAX	cc1200-const.h	329;"	d
+CC1200_CONST_TX_POWER_MIN	cc1200-const.h	324;"	d
+CC1200_DCFILTOFFSET_I0	cc1200-const.h	151;"	d
+CC1200_DCFILTOFFSET_I1	cc1200-const.h	150;"	d
+CC1200_DCFILTOFFSET_Q0	cc1200-const.h	153;"	d
+CC1200_DCFILTOFFSET_Q1	cc1200-const.h	152;"	d
+CC1200_DCFILT_CFG	cc1200-const.h	52;"	d
+CC1200_DEFAULT_CHANNEL	cc1200-conf.h	159;"	d
+CC1200_DEFAULT_CHANNEL	cc1200-conf.h	162;"	d
+CC1200_DEM_STATUS	cc1200-const.h	163;"	d
+CC1200_DEVIATION_M	cc1200-const.h	50;"	d
+CC1200_DEV_ADDR	cc1200-const.h	70;"	d
+CC1200_DVC_TEST	cc1200-const.h	200;"	d
+CC1200_ECG_CFG	cc1200-const.h	91;"	d
+CC1200_EXTENDED_BURST_READ_CMD	cc1200-const.h	305;"	d
+CC1200_EXTENDED_BURST_WRITE_CMD	cc1200-const.h	302;"	d
+CC1200_EXTENDED_READ_CMD	cc1200-const.h	304;"	d
+CC1200_EXTENDED_WRITE_CMD	cc1200-const.h	301;"	d
+CC1200_EXT_CTRL	cc1200-const.h	93;"	d
+CC1200_FIFO_CFG	cc1200-const.h	69;"	d
+CC1200_FIFO_NUM_RXBYTES	cc1200-const.h	215;"	d
+CC1200_FIFO_NUM_TXBYTES	cc1200-const.h	214;"	d
+CC1200_FIFO_SIZE	cc1200-const.h	318;"	d
+CC1200_FREQ0	cc1200-const.h	101;"	d
+CC1200_FREQ1	cc1200-const.h	100;"	d
+CC1200_FREQ2	cc1200-const.h	99;"	d
+CC1200_FREQOFF0	cc1200-const.h	98;"	d
+CC1200_FREQOFF1	cc1200-const.h	97;"	d
+CC1200_FREQOFF_CFG	cc1200-const.h	88;"	d
+CC1200_FREQOFF_EST0	cc1200-const.h	165;"	d
+CC1200_FREQOFF_EST1	cc1200-const.h	164;"	d
+CC1200_FREQ_OFFSET	cc1200-conf.h	146;"	d
+CC1200_FREQ_OFFSET	cc1200-conf.h	148;"	d
+CC1200_FSCAL_CTRL	cc1200-const.h	186;"	d
+CC1200_FSRF_TEST	cc1200-const.h	196;"	d
+CC1200_FS_CAL0	cc1200-const.h	110;"	d
+CC1200_FS_CAL1	cc1200-const.h	109;"	d
+CC1200_FS_CAL2	cc1200-const.h	108;"	d
+CC1200_FS_CAL3	cc1200-const.h	107;"	d
+CC1200_FS_CFG	cc1200-const.h	72;"	d
+CC1200_FS_CHP	cc1200-const.h	111;"	d
+CC1200_FS_DIG0	cc1200-const.h	106;"	d
+CC1200_FS_DIG1	cc1200-const.h	105;"	d
+CC1200_FS_DIVTWO	cc1200-const.h	112;"	d
+CC1200_FS_DSM0	cc1200-const.h	114;"	d
+CC1200_FS_DSM1	cc1200-const.h	113;"	d
+CC1200_FS_DVC0	cc1200-const.h	116;"	d
+CC1200_FS_DVC1	cc1200-const.h	115;"	d
+CC1200_FS_LBI	cc1200-const.h	117;"	d
+CC1200_FS_PFD	cc1200-const.h	118;"	d
+CC1200_FS_PRE	cc1200-const.h	119;"	d
+CC1200_FS_REG_DIV_CML	cc1200-const.h	120;"	d
+CC1200_FS_SPARE	cc1200-const.h	121;"	d
+CC1200_FS_VCO0	cc1200-const.h	126;"	d
+CC1200_FS_VCO1	cc1200-const.h	125;"	d
+CC1200_FS_VCO2	cc1200-const.h	124;"	d
+CC1200_FS_VCO3	cc1200-const.h	123;"	d
+CC1200_FS_VCO4	cc1200-const.h	122;"	d
+CC1200_GBIAS0	cc1200-const.h	133;"	d
+CC1200_GBIAS1	cc1200-const.h	132;"	d
+CC1200_GBIAS2	cc1200-const.h	131;"	d
+CC1200_GBIAS3	cc1200-const.h	130;"	d
+CC1200_GBIAS4	cc1200-const.h	129;"	d
+CC1200_GBIAS5	cc1200-const.h	128;"	d
+CC1200_GBIAS6	cc1200-const.h	127;"	d
+CC1200_GPIO_STATUS	cc1200-const.h	185;"	d
+CC1200_H_	cc1200-conf.h	36;"	d
+CC1200_IFAMP	cc1200-const.h	134;"	d
+CC1200_IF_ADC0	cc1200-const.h	104;"	d
+CC1200_IF_ADC1	cc1200-const.h	103;"	d
+CC1200_IF_ADC2	cc1200-const.h	102;"	d
+CC1200_IF_MIX_CFG	cc1200-const.h	87;"	d
+CC1200_IOCFG0	cc1200-const.h	43;"	d
+CC1200_IOCFG1	cc1200-const.h	42;"	d
+CC1200_IOCFG2	cc1200-const.h	41;"	d
+CC1200_IOCFG3	cc1200-const.h	40;"	d
+CC1200_IOCFG_CARRIER_SENSE	cc1200-const.h	279;"	d
+CC1200_IOCFG_MARC_2PIN_STATUS_0	cc1200-const.h	281;"	d
+CC1200_IOCFG_MARC_2PIN_STATUS_1	cc1200-const.h	280;"	d
+CC1200_IOCFG_PKT_SYNC_RXTX	cc1200-const.h	276;"	d
+CC1200_IOCFG_RXFFIFO_THR_PKT	cc1200-const.h	274;"	d
+CC1200_IOCFG_RXFIFO_CHIP_RDY_N	cc1200-const.h	282;"	d
+CC1200_IOCFG_RXFIFO_THR	cc1200-const.h	273;"	d
+CC1200_IOCFG_SERIAL_CLK	cc1200-const.h	277;"	d
+CC1200_IOCFG_SERIAL_RX	cc1200-const.h	278;"	d
+CC1200_IOCFG_TXFIFO_THR	cc1200-const.h	275;"	d
+CC1200_IQIC	cc1200-const.h	55;"	d
+CC1200_IQIE_I0	cc1200-const.h	155;"	d
+CC1200_IQIE_I1	cc1200-const.h	154;"	d
+CC1200_IQIE_Q0	cc1200-const.h	157;"	d
+CC1200_IQIE_Q1	cc1200-const.h	156;"	d
+CC1200_IS_EXTENDED_ADDR	cc1200-const.h	308;"	d
+CC1200_LNA	cc1200-const.h	135;"	d
+CC1200_LQI_VAL	cc1200-const.h	161;"	d
+CC1200_MAGN0	cc1200-const.h	176;"	d
+CC1200_MAGN1	cc1200-const.h	175;"	d
+CC1200_MAGN2	cc1200-const.h	174;"	d
+CC1200_MARCSTATE	cc1200-const.h	160;"	d
+CC1200_MARC_SPARE	cc1200-const.h	90;"	d
+CC1200_MARC_STATE_IDLE	cc1200-const.h	256;"	d
+CC1200_MARC_STATE_RX	cc1200-const.h	257;"	d
+CC1200_MARC_STATE_RX_FIFO_ERR	cc1200-const.h	258;"	d
+CC1200_MARC_STATE_SLEEP	cc1200-const.h	255;"	d
+CC1200_MARC_STATE_TX	cc1200-const.h	259;"	d
+CC1200_MARC_STATE_TX_FIFO_ERR	cc1200-const.h	260;"	d
+CC1200_MARC_STATUS0	cc1200-const.h	194;"	d
+CC1200_MARC_STATUS1	cc1200-const.h	193;"	d
+CC1200_MAX_PAYLOAD_LEN	cc1200-conf.h	71;"	d
+CC1200_MAX_PAYLOAD_LEN	cc1200-conf.h	73;"	d
+CC1200_MDMCFG0	cc1200-const.h	58;"	d
+CC1200_MDMCFG1	cc1200-const.h	57;"	d
+CC1200_MDMCFG2	cc1200-const.h	92;"	d
+CC1200_MDM_TEST	cc1200-const.h	207;"	d
+CC1200_MODCFG_DEV_E	cc1200-const.h	51;"	d
+CC1200_MODEM_STATUS0	cc1200-const.h	192;"	d
+CC1200_MODEM_STATUS1	cc1200-const.h	191;"	d
+CC1200_NUM_RXBYTES	cc1200-const.h	213;"	d
+CC1200_NUM_TXBYTES	cc1200-const.h	212;"	d
+CC1200_PARTNUMBER	cc1200-const.h	188;"	d
+CC1200_PARTVERSION	cc1200-const.h	189;"	d
+CC1200_PA_CFG0	cc1200-const.h	84;"	d
+CC1200_PA_CFG1	cc1200-const.h	83;"	d
+CC1200_PA_CFG3	cc1200-const.h	144;"	d
+CC1200_PA_IFAMP_TEST	cc1200-const.h	195;"	d
+CC1200_PHASE_ADJUST	cc1200-const.h	187;"	d
+CC1200_PKT_CFG0	cc1200-const.h	80;"	d
+CC1200_PKT_CFG1	cc1200-const.h	79;"	d
+CC1200_PKT_CFG2	cc1200-const.h	78;"	d
+CC1200_PKT_LEN	cc1200-const.h	86;"	d
+CC1200_PQT_REACHED	cc1200-const.h	316;"	d
+CC1200_PQT_SYNC_ERR	cc1200-const.h	162;"	d
+CC1200_PREAMBLE_CFG0	cc1200-const.h	54;"	d
+CC1200_PREAMBLE_CFG1	cc1200-const.h	53;"	d
+CC1200_PRE_OVR	cc1200-const.h	198;"	d
+CC1200_PRE_TEST	cc1200-const.h	197;"	d
+CC1200_RCCAL_COARSE	cc1200-const.h	95;"	d
+CC1200_RCCAL_FINE	cc1200-const.h	94;"	d
+CC1200_RCCAL_OFFSET	cc1200-const.h	96;"	d
+CC1200_READ_BIT	cc1200-const.h	299;"	d
+CC1200_RFEND_CFG0	cc1200-const.h	82;"	d
+CC1200_RFEND_CFG1	cc1200-const.h	81;"	d
+CC1200_RF_CFG	cc1200-conf.h	119;"	d
+CC1200_RF_CFG	cc1200-conf.h	121;"	d
+CC1200_RF_CFG	cc1200.c	72;"	d	file:
+CC1200_RF_CFG	cc1200.c	74;"	d	file:
+CC1200_RF_CFG	cc1200.c	76;"	d	file:
+CC1200_RF_CFG	cc1200.c	78;"	d	file:
+CC1200_RF_CFG_H	cc1200-rf-cfg.h	36;"	d
+CC1200_RF_TESTMODE	cc1200.c	68;"	d	file:
+CC1200_RNDGEN	cc1200-const.h	173;"	d
+CC1200_RSSI0	cc1200-const.h	159;"	d
+CC1200_RSSI1	cc1200-const.h	158;"	d
+CC1200_RSSI_OFFSET	cc1200-conf.h	131;"	d
+CC1200_RSSI_OFFSET	cc1200-conf.h	133;"	d
+CC1200_RXDCM_TIME	cc1200-const.h	77;"	d
+CC1200_RXFIFO	cc1200-const.h	252;"	d
+CC1200_RXFIFO_PRE_BUF	cc1200-const.h	216;"	d
+CC1200_RXFIRST	cc1200-const.h	208;"	d
+CC1200_RXLAST	cc1200-const.h	210;"	d
+CC1200_RXMIX	cc1200-const.h	136;"	d
+CC1200_RX_LEDS	cc1200-conf.h	222;"	d
+CC1200_SCAL	cc1200-const.h	288;"	d
+CC1200_SERIAL_STATUS	cc1200-const.h	190;"	d
+CC1200_SETTLING_CFG	cc1200-const.h	71;"	d
+CC1200_SFRX	cc1200-const.h	293;"	d
+CC1200_SFSTXON	cc1200-const.h	286;"	d
+CC1200_SFTX	cc1200-const.h	294;"	d
+CC1200_SIDLE	cc1200-const.h	291;"	d
+CC1200_SNIFFER	cc1200-conf.h	230;"	d
+CC1200_SNIFFER	cc1200-conf.h	232;"	d
+CC1200_SNOP	cc1200-const.h	295;"	d
+CC1200_SPWD	cc1200-const.h	292;"	d
+CC1200_SRES	cc1200-const.h	285;"	d
+CC1200_SRX	cc1200-const.h	289;"	d
+CC1200_STATUS_BYTE_CALIBRATE	cc1200-const.h	267;"	d
+CC1200_STATUS_BYTE_FSTXON	cc1200-const.h	266;"	d
+CC1200_STATUS_BYTE_IDLE	cc1200-const.h	263;"	d
+CC1200_STATUS_BYTE_RX	cc1200-const.h	264;"	d
+CC1200_STATUS_BYTE_RX_FIFO_ERR	cc1200-const.h	269;"	d
+CC1200_STATUS_BYTE_SETTLING	cc1200-const.h	268;"	d
+CC1200_STATUS_BYTE_TX	cc1200-const.h	265;"	d
+CC1200_STATUS_BYTE_TX_FIFO_ERR	cc1200-const.h	270;"	d
+CC1200_STX	cc1200-const.h	290;"	d
+CC1200_SXOFF	cc1200-const.h	287;"	d
+CC1200_SYMBOL_RATE0	cc1200-const.h	61;"	d
+CC1200_SYMBOL_RATE1	cc1200-const.h	60;"	d
+CC1200_SYMBOL_RATE2	cc1200-const.h	59;"	d
+CC1200_SYNC0	cc1200-const.h	47;"	d
+CC1200_SYNC1	cc1200-const.h	46;"	d
+CC1200_SYNC2	cc1200-const.h	45;"	d
+CC1200_SYNC3	cc1200-const.h	44;"	d
+CC1200_SYNC_CFG0	cc1200-const.h	49;"	d
+CC1200_SYNC_CFG1	cc1200-const.h	48;"	d
+CC1200_SYNC_FOUND	cc1200-const.h	315;"	d
+CC1200_TOC_CFG	cc1200-const.h	89;"	d
+CC1200_TXFIFO	cc1200-const.h	251;"	d
+CC1200_TXFIRST	cc1200-const.h	209;"	d
+CC1200_TXLAST	cc1200-const.h	211;"	d
+CC1200_TX_LEDS	cc1200-conf.h	212;"	d
+CC1200_USE_GPIO2	cc1200-conf.h	49;"	d
+CC1200_USE_GPIO2	cc1200-conf.h	51;"	d
+CC1200_USE_RX_WATCHDOG	cc1200-conf.h	82;"	d
+CC1200_USE_RX_WATCHDOG	cc1200-conf.h	84;"	d
+CC1200_WOR_CAPTURE0	cc1200-const.h	148;"	d
+CC1200_WOR_CAPTURE1	cc1200-const.h	147;"	d
+CC1200_WOR_CFG0	cc1200-const.h	74;"	d
+CC1200_WOR_CFG1	cc1200-const.h	73;"	d
+CC1200_WOR_EVENT0_LSB	cc1200-const.h	76;"	d
+CC1200_WOR_EVENT0_MSB	cc1200-const.h	75;"	d
+CC1200_WOR_TIME0	cc1200-const.h	146;"	d
+CC1200_WOR_TIME1	cc1200-const.h	145;"	d
+CC1200_WRITE_BIT	cc1200-const.h	298;"	d
+CC1200_XOSC0	cc1200-const.h	142;"	d
+CC1200_XOSC1	cc1200-const.h	141;"	d
+CC1200_XOSC2	cc1200-const.h	140;"	d
+CC1200_XOSC3	cc1200-const.h	139;"	d
+CC1200_XOSC4	cc1200-const.h	138;"	d
+CC1200_XOSC5	cc1200-const.h	137;"	d
+CC1200_XOSC_TEST0	cc1200-const.h	205;"	d
+CC1200_XOSC_TEST1	cc1200-const.h	204;"	d
+CC_APPENDIX_LEN	cc1200.c	170;"	d	file:
+CC_APPENDIX_LEN	cc1200.c	173;"	d	file:
+CHANNEL_OUT_OF_LIMITS	cc1200.c	235;"	d	file:
+CHANNEL_UPDATE_POSTPONED	cc1200.c	233;"	d	file:
+CHANNEL_UPDATE_SUCCEEDED	cc1200.c	231;"	d	file:
+DEBUG_LEVEL	cc1200.c	59;"	d	file:
+DISABLE_GPIO_INTERRUPTS	cc1200.c	307;"	d	file:
+DISABLE_GPIO_INTERRUPTS	cc1200.c	315;"	d	file:
+ENABLE_GPIO_INTERRUPTS	cc1200.c	302;"	d	file:
+ENABLE_GPIO_INTERRUPTS	cc1200.c	314;"	d	file:
+ERROR	cc1200.c	322;"	d	file:
+ERROR	cc1200.c	324;"	d	file:
+FIFO_THRESHOLD	cc1200.c	135;"	d	file:
+FREQ_DIVIDER	cc1200.c	192;"	d	file:
+FREQ_MULTIPLIER	cc1200.c	193;"	d	file:
+GPIO0_IOCFG	cc1200.c	163;"	d	file:
+GPIO2_IOCFG	cc1200.c	133;"	d	file:
+GPIO2_IOCFG	cc1200.c	142;"	d	file:
+GPIO3_IOCFG	cc1200.c	165;"	d	file:
+INFO	cc1200.c	348;"	d	file:
+INFO	cc1200.c	350;"	d	file:
+INVALID_FRAME	cc1200.c	220;"	d	file:
+LOCK_SPI	cc1200.c	284;"	d	file:
+LO_DIVIDER	cc1200.c	190;"	d	file:
+PHR_LEN	cc1200.c	100;"	d	file:
+PHR_LEN	cc1200.c	103;"	d	file:
+PROCESS_THREAD	cc1200.c	/^PROCESS_THREAD(cc1200_process, ev, data)$/;"	f
+RELEASE_SPI	cc1200.c	286;"	d	file:
+RF_ASSERT	cc1200.c	329;"	d	file:
+RF_ASSERT	cc1200.c	336;"	d	file:
+RF_CFG_CCA_THRESHOLD	cc1200-802154g-863-870-fsk-50kbps.c	59;"	d	file:
+RF_CFG_CHAN_CENTER_F0	cc1200-802154g-863-870-fsk-50kbps.c	49;"	d	file:
+RF_CFG_CHAN_SPACING	cc1200-802154g-863-870-fsk-50kbps.c	51;"	d	file:
+RF_CFG_MAX_CHANNEL	cc1200-802154g-863-870-fsk-50kbps.c	55;"	d	file:
+RF_CFG_MAX_TXPOWER	cc1200-802154g-863-870-fsk-50kbps.c	57;"	d	file:
+RF_CFG_MIN_CHANNEL	cc1200-802154g-863-870-fsk-50kbps.c	53;"	d	file:
+RF_FORCE_CALIBRATION	cc1200.c	254;"	d	file:
+RF_INITIALIZED	cc1200.c	240;"	d	file:
+RF_ON	cc1200.c	242;"	d	file:
+RF_POLL_RX_INTERRUPT	cc1200.c	250;"	d	file:
+RF_RX_PROCESSING_PKT	cc1200.c	244;"	d	file:
+RF_TX_ACTIVE	cc1200.c	246;"	d	file:
+RF_UPDATE_CHANNEL	cc1200.c	248;"	d	file:
+RXOFF_MODE_RX	cc1200.c	137;"	d	file:
+RXOFF_MODE_RX	cc1200.c	148;"	d	file:
+RXOFF_MODE_RX	cc1200.c	156;"	d	file:
+RX_LEDS_OFF	cc1200.c	273;"	d	file:
+RX_LEDS_OFF	cc1200.c	276;"	d	file:
+RX_LEDS_ON	cc1200.c	272;"	d	file:
+RX_LEDS_ON	cc1200.c	275;"	d	file:
+SETUP_GPIO_INTERRUPTS	cc1200.c	297;"	d	file:
+SETUP_GPIO_INTERRUPTS	cc1200.c	313;"	d	file:
+SPI_IS_LOCKED	cc1200.c	285;"	d	file:
+STATE_CALIBRATE	cc1200.c	211;"	d	file:
+STATE_FSTXON	cc1200.c	210;"	d	file:
+STATE_IDLE	cc1200.c	200;"	d	file:
+STATE_IDLE	cc1200.c	207;"	d	file:
+STATE_RX	cc1200.c	201;"	d	file:
+STATE_RX	cc1200.c	208;"	d	file:
+STATE_RX_FIFO_ERR	cc1200.c	213;"	d	file:
+STATE_RX_FIFO_ERROR	cc1200.c	203;"	d	file:
+STATE_SETTLING	cc1200.c	212;"	d	file:
+STATE_TX	cc1200.c	202;"	d	file:
+STATE_TX	cc1200.c	209;"	d	file:
+STATE_TX_FIFO_ERR	cc1200.c	214;"	d	file:
+STATE_TX_FIFO_ERROR	cc1200.c	204;"	d	file:
+STATE_USES_MARC_STATE	cc1200.c	88;"	d	file:
+TXOFF_MODE_RX	cc1200.c	167;"	d	file:
+TX_LEDS_OFF	cc1200.c	265;"	d	file:
+TX_LEDS_OFF	cc1200.c	268;"	d	file:
+TX_LEDS_ON	cc1200.c	264;"	d	file:
+TX_LEDS_ON	cc1200.c	267;"	d	file:
+USE_SFSTXON	cc1200.c	95;"	d	file:
+WARNING	cc1200.c	341;"	d	file:
+WARNING	cc1200.c	343;"	d	file:
+XTAL_FREQ_KHZ	cc1200.c	184;"	d	file:
+addr	cc1200-rf-cfg.h	/^  uint16_t addr;$/;"	m	struct:cc1200_registerSetting
+addr_check_auto_ack	cc1200.c	/^addr_check_auto_ack(uint8_t *frame, uint16_t frame_len)$/;"	f	file:
+burst_read	cc1200.c	/^burst_read(uint16_t addr, uint8_t *data, uint8_t data_len)$/;"	f	file:
+burst_write	cc1200.c	/^burst_write(uint16_t addr, const uint8_t *data, uint8_t data_len)$/;"	f	file:
+cal_timer	cc1200.c	/^static unsigned long cal_timer;$/;"	v	file:
+calculate_freq	cc1200.c	/^calculate_freq(uint8_t channel)$/;"	f	file:
+calibrate	cc1200.c	/^calibrate(void)$/;"	f	file:
+cc1200_802154g_863_870_fsk_50kbps	cc1200-802154g-863-870-fsk-50kbps.c	/^const cc1200_rf_cfg_t cc1200_802154g_863_870_fsk_50kbps = {$/;"	v
+cc1200_driver	cc1200.c	/^const struct radio_driver cc1200_driver = {$/;"	v	typeref:struct:radio_driver
+cc1200_registerSetting	cc1200-rf-cfg.h	/^typedef struct cc1200_registerSetting {$/;"	s
+cc1200_register_settings_t	cc1200-rf-cfg.h	/^typedef registerSetting_t cc1200_register_settings_t;$/;"	t
+cc1200_rf_cfg	cc1200-rf-cfg.h	/^typedef struct cc1200_rf_cfg {$/;"	s
+cc1200_rf_cfg_t	cc1200-rf-cfg.h	/^} cc1200_rf_cfg_t;$/;"	t	typeref:struct:cc1200_rf_cfg
+cc1200_rx_interrupt	cc1200.c	/^cc1200_rx_interrupt(void)$/;"	f
+cca_threshold	cc1200-rf-cfg.h	/^  int8_t cca_threshold;$/;"	m	struct:cc1200_rf_cfg
+cca_threshold	cc1200.c	/^static int8_t cca_threshold;$/;"	v	file:
+cfg_descriptor	cc1200-rf-cfg.h	/^  const char *cfg_descriptor;$/;"	m	struct:cc1200_rf_cfg
+chan_center_freq0	cc1200-rf-cfg.h	/^  uint32_t chan_center_freq0;$/;"	m	struct:cc1200_rf_cfg
+chan_spacing	cc1200-rf-cfg.h	/^  uint16_t chan_spacing;$/;"	m	struct:cc1200_rf_cfg
+channel_clear	cc1200.c	/^channel_clear(void)$/;"	f	file:
+configure	cc1200.c	/^configure(void)$/;"	f	file:
+et	cc1200.c	/^static struct etimer et;$/;"	v	typeref:struct:etimer	file:
+flush	cc1200.c	382;"	d	file:
+flush	cc1200.c	385;"	d	file:
+get_object	cc1200.c	/^get_object(radio_param_t param, void *dest, size_t size)$/;"	f	file:
+get_value	cc1200.c	/^get_value(radio_param_t param, radio_value_t *value)$/;"	f	file:
+idle	cc1200.c	/^idle(void)$/;"	f	file:
+idle_calibrate_rx	cc1200.c	/^idle_calibrate_rx(void)$/;"	f	file:
+idle_tx_rx	cc1200.c	/^idle_tx_rx(const uint8_t *payload, uint16_t payload_len)$/;"	f	file:
+init	cc1200.c	/^init(void)$/;"	f	file:
+is_broadcast_addr	cc1200.c	/^is_broadcast_addr(uint8_t mode, uint8_t *addr)$/;"	f	file:
+magic	cc1200.c	/^static const uint8_t magic[] = { 0x53, 0x6E, 0x69, 0x66 };$/;"	v	file:
+max_channel	cc1200-rf-cfg.h	/^  uint8_t max_channel;$/;"	m	struct:cc1200_rf_cfg
+max_txpower	cc1200-rf-cfg.h	/^  int8_t max_txpower;$/;"	m	struct:cc1200_rf_cfg
+min_channel	cc1200-rf-cfg.h	/^  uint8_t min_channel;$/;"	m	struct:cc1200_rf_cfg
+new_cca_threshold	cc1200.c	/^static int8_t new_cca_threshold;$/;"	v	file:
+new_rf_channel	cc1200.c	/^static uint8_t new_rf_channel;$/;"	v	file:
+new_txpower	cc1200.c	/^static int8_t new_txpower;$/;"	v	file:
+off	cc1200.c	/^off(void)$/;"	f	file:
+on	cc1200.c	/^on(void)$/;"	f	file:
+pending_packet	cc1200.c	/^pending_packet(void)$/;"	f	file:
+pollhandler	cc1200.c	/^pollhandler(void)$/;"	f	file:
+preferredSettings	cc1200-802154g-863-870-fsk-50kbps.c	/^static const registerSetting_t preferredSettings[]=$/;"	v	file:
+prepare	cc1200.c	/^prepare(const void *payload, unsigned short payload_len)$/;"	f	file:
+read	cc1200.c	/^read(void *buf, unsigned short buf_len)$/;"	f	file:
+receiving_packet	cc1200.c	/^receiving_packet(void)$/;"	f	file:
+registerSetting_t	cc1200-rf-cfg.h	/^} registerSetting_t;$/;"	t	typeref:struct:cc1200_registerSetting
+register_settings	cc1200-rf-cfg.h	/^  const cc1200_register_settings_t *register_settings;$/;"	m	struct:cc1200_rf_cfg
+reset	cc1200.c	/^reset(void)$/;"	f	file:
+rf_cfg_descriptor	cc1200-802154g-863-870-fsk-50kbps.c	/^static const char rf_cfg_descriptor[] = "802.15.4g 863-870MHz MR-FSK mode #1";$/;"	v	file:
+rf_channel	cc1200.c	/^static uint8_t rf_channel;$/;"	v	file:
+rf_flags	cc1200.c	/^static uint8_t rf_flags = 0;$/;"	v	file:
+rx_mode_value	cc1200.c	/^static radio_value_t rx_mode_value;$/;"	v	file:
+rx_pkt	cc1200.c	/^static uint8_t rx_pkt[CC1200_MAX_PAYLOAD_LEN + APPENDIX_LEN];$/;"	v	file:
+rx_pkt_len	cc1200.c	/^static volatile uint16_t rx_pkt_len = 0;$/;"	v	file:
+rx_rx	cc1200.c	/^rx_rx(void)$/;"	f	file:
+send	cc1200.c	/^send(const void *payload, unsigned short payload_len)$/;"	f	file:
+set_channel	cc1200.c	/^set_channel(uint8_t channel)$/;"	f	file:
+set_object	cc1200.c	/^set_object(radio_param_t param, const void *src, size_t size)$/;"	f	file:
+set_value	cc1200.c	/^set_value(radio_param_t param, radio_value_t value)$/;"	f	file:
+single_read	cc1200.c	/^single_read(uint16_t addr)$/;"	f	file:
+single_write	cc1200.c	/^single_write(uint16_t addr, uint8_t val)$/;"	f	file:
+size_of_register_settings	cc1200-rf-cfg.h	/^  size_t size_of_register_settings;$/;"	m	struct:cc1200_rf_cfg
+spi_locked	cc1200.c	/^static volatile uint8_t spi_locked = 0;$/;"	v	file:
+state	cc1200.c	/^state(void)$/;"	f	file:
+strobe	cc1200.c	/^strobe(uint8_t strobe)$/;"	f	file:
+transmit	cc1200.c	/^transmit(unsigned short transmit_len)$/;"	f	file:
+tx_mode_value	cc1200.c	/^static radio_value_t tx_mode_value;$/;"	v	file:
+tx_pkt	cc1200.c	/^static uint8_t tx_pkt[CC1200_MAX_PAYLOAD_LEN];$/;"	v	file:
+tx_pkt_len	cc1200.c	/^static uint16_t tx_pkt_len;$/;"	v	file:
+tx_pkt_lifetime	cc1200-rf-cfg.h	/^  rtimer_clock_t tx_pkt_lifetime;$/;"	m	struct:cc1200_rf_cfg
+txpower	cc1200.c	/^static int8_t txpower;$/;"	v	file:
+update_cca_threshold	cc1200.c	/^update_cca_threshold(int8_t threshold_dbm)$/;"	f	file:
+update_txpower	cc1200.c	/^update_txpower(int8_t txpower_dbm)$/;"	f	file:
+val	cc1200-rf-cfg.h	/^  uint8_t val;$/;"	m	struct:cc1200_registerSetting
+write_byte	cc1200.c	381;"	d	file:
+write_byte	cc1200.c	384;"	d	file:
+write_reg_settings	cc1200.c	/^write_reg_settings(const registerSetting_t *reg_settings,$/;"	f	file:

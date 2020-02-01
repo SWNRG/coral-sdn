@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="serial_socket">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/apps/serial_socket/lib/serial_socket.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

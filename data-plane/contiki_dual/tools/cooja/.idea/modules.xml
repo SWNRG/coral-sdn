@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/apps/avrora/avrora.iml" filepath="$PROJECT_DIR$/apps/avrora/avrora.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/collect-view/collect-view.iml" filepath="$PROJECT_DIR$/apps/collect-view/collect-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cooja.iml" filepath="$PROJECT_DIR$/cooja.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples/examples.iml" filepath="$PROJECT_DIR$/examples/examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/mrm/mrm.iml" filepath="$PROJECT_DIR$/apps/mrm/mrm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/mspsim/mspsim.iml" filepath="$PROJECT_DIR$/apps/mspsim/mspsim.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/native_gateway/native_gateway.iml" filepath="$PROJECT_DIR$/apps/native_gateway/native_gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/powertracker/powertracker.iml" filepath="$PROJECT_DIR$/apps/powertracker/powertracker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples/project_new_interface/project_new_interface.iml" filepath="$PROJECT_DIR$/examples/project_new_interface/project_new_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples/project_new_plugin/project_new_plugin.iml" filepath="$PROJECT_DIR$/examples/project_new_plugin/project_new_plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples/project_new_radiomedium/project_new_radiomedium.iml" filepath="$PROJECT_DIR$/examples/project_new_radiomedium/project_new_radiomedium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/serial_socket/serial_socket.iml" filepath="$PROJECT_DIR$/apps/serial_socket/serial_socket.iml" />
+    </modules>
+  </component>
+</project>
