@@ -1,3 +1,14 @@
 CORAL-SDN git is under major update with the latest version (expected to finish by 3rd of Feb 2020) stay tuned
 
-Recent proposals enhances Wireless Sensor Networks (WSNs) with Software Defined Networking (SDN) practices, introducing new innovative network control strategies and protocols based on a central control logic, i.e., enabling WSNs as crucial facilities for the Internet of Things (IoT). In this direction, we demonstrate CORAL-SDN, an SDN solution for WSNs which: (i) uses intelligent centralized control mechanisms to adjust dynamically the protocol functionalities; (ii) supports elasticity to the challenging requirements of the WSNs; (iii) maintains a scalable architecture; and (iv) exhibits improved network management and operation in terms of performance and resource utilization. With this demo we provide a suitable environment for hands-on experimentation, featuring the CORAL-SDN protocol operation in real test-beds and highlighting the improvements that SDN brings to IoT.
+# CORAL-SDN: A Software-Defined Networking Solution with Out-of-Band Control for the Internet of Things
+
+![CORAL-SDN Architecture](/CORAL-SDN-Architecture.png)
+
+* CORAL-SDN protocol video [here]( https://youtu.be/AaVqCTXVyQk)
+
+CORAL-SDN
+The Internet of Things (IoT) is gradually incorporating multiple environmental, people, or industrial monitoring deployments with diverse communication and application requirements. 
+The main routing protocols used in the IoT, such as the IPv6 Routing Protocol for Low-Power and Lossy Networks (RPL), are focusing on the many-to-one communication of resource-constraint devices over wireless multi-hop topologies, i.e., due to their legacy of the Wireless Sensor Networks (WSN).
+The Software-Defined Networking (SDN) paradigm appeared as a promising approach to implement alternative routing control strategies, enriching the set of IoT applications that can be delivered, by enabling global protocol strategies and programmability of the network environment. However, SDN can be associated with significant network control overhead. 
+In this paper, we propose CORAL-SDN, an open-source SDN solution for the IoT, bringing the following novelties in contrast to the related works: (i) programmable routing control with reduced control overhead through inherent protocol support of a long-range control channel; and (ii) a modular SDN controller and an OpenFlow-like protocol improving the quality of communication in a wide range of IoT scenarios through supporting two alternative topology discovery and two flow establishment mechanisms.
+We carried out experiments with various topologies, network sizes and high-volume transmissions with alternative communication patterns. Our results verified the robust performance and reduced control overhead of CORAL-SDN for alternative IoT deployments, e.g., achieved up to 47% reduction in network's overall end-to-end delay time compared to the RPL and a packet delivery ratio of over 99.5%.
