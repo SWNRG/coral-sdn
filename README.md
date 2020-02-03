@@ -1,4 +1,4 @@
-CORAL-SDN git is under major update with the latest version (expected to finish by 3rd of Feb 2020) stay tuned
+CORAL-SDN git is under major update with the latest version (expected to finish by 5rd of Feb 2020) stay tuned
 
 # CORAL-SDN: A Software-Defined Networking Solution with Out-of-Band Control for the Internet of Things
 
