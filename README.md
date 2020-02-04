@@ -5,6 +5,7 @@ CORAL-SDN git is under major update with the latest version (expected to finish 
 ![CORAL-SDN Architecture](/CORAL-SDN-Architecture.png)
 
 * CORAL-SDN protocol video [here]( https://youtu.be/AaVqCTXVyQk)
+* CORAL-SDN Out-of-Band Control Panorama video [here](https://youtu.be/nGNGpMxJjdE)
 
 CORAL-SDN
 The Internet of Things (IoT) is gradually incorporating multiple environmental, people, or industrial monitoring deployments with diverse communication and application requirements. 
