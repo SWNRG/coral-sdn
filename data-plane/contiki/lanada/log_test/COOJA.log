@@ -1,0 +1,19 @@
+[17:07:08 - main] [Cooja.java:1359] [INFO] - > Starting Cooja
+[17:07:08 - main] [Cooja.java:2865] [INFO] - External tools default settings: /external_tools_linux.config
+[17:07:08 - main] [Cooja.java:2895] [INFO] - External tools user settings: /home/user/.cooja.user.properties
+[17:07:08 - main] [Cooja.java:1365] [INFO] - > Creating simulation
+[17:07:10 - AWT-EventQueue-0] [UDGM.java:155] [WARN] - Adding Visualizer, isLongRange=false
+[17:07:10 - AWT-EventQueue-0] [Simulation.java:1126] [WARN] - Changed RadioMedium
+[17:07:10 - AWT-EventQueue-0] [Simulation.java:1128] [WARN] - Trying to Load currentRadioMedium : Class = org.contikios.cooja.radiomediums.UDGM
+[17:07:10 - AWT-EventQueue-0] [Simulation.java:1131] [WARN] - Trying to Load currentRadioMedium_LR
+[17:07:10 - AWT-EventQueue-0] [UDGM.java:155] [WARN] - Adding Visualizer, isLongRange=false
+[17:07:10 - AWT-EventQueue-0] [UDGM.java:95] [WARN] - UDGM setting...
+[17:07:10 - AWT-EventQueue-0] [UDGM.java:99] [WARN] - UDGM set for Long Range
+[17:07:10 - AWT-EventQueue-0] [Simulation.java:1137] [WARN] - Successfully Loaded Two Radio Medium, one for SR and one for LR
+[17:07:10 - AWT-EventQueue-0] [Simulation.java:419] [INFO] - Simulation random seed: 123456
+[17:07:10 - main] [Visualizer.java:256] [INFO] - Registered external visualizer: org.contikios.cooja.plugins.skins.DGRMVisualizerSkin
+[17:07:10 - main] [Cooja.java:1375] [INFO] - > Creating mote type
+[17:07:12 - AWT-EventQueue-0] [CompileContiki.java:140] [INFO] - > make log_test.cooja TARGET=cooja 
+[17:07:18 - AWT-EventQueue-0] [ContikiMoteType.java:1049] [WARN] - Setting Mote Interfaces!!!!!!!!!!!! 
+[17:07:18 - main] [ContikiMoteType.java:406] [INFO] - Creating core communicator between Java class Lib1 and Contiki library '/home/user/Desktop/Dual-radio-simulation/lanada/log_test/obj_cooja/mtype568.cooja
+[17:07:19 - main] [Cooja.java:1387] [FATAL] - Mote type initialization failed, aborting quickstart

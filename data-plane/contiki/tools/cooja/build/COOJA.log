@@ -1,0 +1,15 @@
+[10:28:13 - AWT-EventQueue-0] [Cooja.java:2865] [INFO] - External tools default settings: /external_tools_linux_64.config
+[10:28:13 - AWT-EventQueue-0] [Cooja.java:2895] [INFO] - External tools user settings: /home/tryfon/.cooja.user.properties
+[10:28:24 - AWT-EventQueue-0] [UDGM.java:155] [WARN] - Adding Visualizer, isLongRange=false
+[10:28:24 - AWT-EventQueue-0] [Simulation.java:1126] [WARN] - Changed RadioMedium
+[10:28:24 - AWT-EventQueue-0] [Simulation.java:1128] [WARN] - Trying to Load currentRadioMedium : Class = org.contikios.cooja.radiomediums.UDGM
+[10:28:24 - AWT-EventQueue-0] [Simulation.java:1131] [WARN] - Trying to Load currentRadioMedium_LR
+[10:28:24 - AWT-EventQueue-0] [UDGM.java:155] [WARN] - Adding Visualizer, isLongRange=false
+[10:28:24 - AWT-EventQueue-0] [UDGM.java:95] [WARN] - UDGM setting...
+[10:28:24 - AWT-EventQueue-0] [UDGM.java:99] [WARN] - UDGM set for Long Range
+[10:28:24 - AWT-EventQueue-0] [Simulation.java:1137] [WARN] - Successfully Loaded Two Radio Medium, one for SR and one for LR
+[10:28:24 - AWT-EventQueue-0] [Simulation.java:419] [INFO] - Simulation random seed: 123456
+[10:28:24 - AWT-EventQueue-0] [Visualizer.java:256] [INFO] - Registered external visualizer: org.contikios.cooja.plugins.skins.DGRMVisualizerSkin
+[10:28:54 - AWT-EventQueue-0] [Cooja.java:4146] [WARN] - Path is not portable: '/home/tryfon/coral/contiki/coral-sdn-dataplane/node.c
+[10:28:56 - AWT-EventQueue-0] [CompileContiki.java:140] [INFO] - > make node.cooja TARGET=cooja 
+[10:29:54 - AWT-EventQueue-0] [CompileContiki.java:140] [INFO] - > make node.cooja TARGET=cooja 

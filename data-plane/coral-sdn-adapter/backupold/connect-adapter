@@ -1,0 +1,15 @@
+#!/bin/bash
+echo "Do not forget to run it as root (or with sudo)"
+echo "Deleting old softlinks"
+rm -rf /dev/rm090*
+echo "Creating softlink creation script"
+./createSoftLinkCreationScript.py > softLinkCreationScript
+echo "Making script executable"
+chmod +x softLinkCreationScript
+echo "Creating softlinks"
+./softLinkCreationScript
+#java -jar CORAL-SDN-Adapter.jar 10.20.207.203
+#java -jar CORAL-SDN-Adapter.jar 192.168.100.8
+java -jar CORAL-SDN-Adapter.jar 192.168.63.1
+#java -jar CORAL-SDN-Adapter.jar 10.1.11.45
+#java -jar CORAL-SDN-Adapter.jar 10.1.0.75

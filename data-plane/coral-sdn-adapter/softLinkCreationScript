@@ -1,0 +1,2 @@
+#!/bin/bash
+ln -s /dev/pts/20 /dev/rm090-1

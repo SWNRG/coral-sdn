@@ -1,0 +1,3 @@
+CORAL-SDN dataplane protocol
+coral_br.c is the Border Router
+coral_node.c is a Normal Mote
