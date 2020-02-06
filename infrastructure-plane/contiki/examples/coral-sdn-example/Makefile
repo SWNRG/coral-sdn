@@ -9,6 +9,6 @@ CONTIKI_WITH_RIME = 1
 #PROJECT_SOURCEFILES = addr.c packet.c neighbor.c 
 #flowtable.c packet-buffer.c address.c neighbor-table.c packet-handler.c node-conf.c packet-creator.c
 #TARGETDIRS += ../targets
-CFLAGS += -DPROJECT_CONF_H=\"net/coral-sdn/coral_conf.h\"
+CFLAGS += -DPROJECT_CONF_H=\"coral_conf.h\"
 
 include $(CONTIKI)/Makefile.include
