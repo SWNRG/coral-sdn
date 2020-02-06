@@ -41,13 +41,13 @@ public class ConnectorMain {
 		nbTherad = new Thread(northbound);
 		nbTherad.start();	
 
-		delay(5000);
+		delay(1000);
 /*		try {
 			Thread.sleep(5000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-*/		
+*/				
 		// Southbound Listener Starting	
 		System.out.println("Connector SouthBound Listening starting...");	
 		System.out.println("Detecting ports...");
@@ -72,7 +72,7 @@ public class ConnectorMain {
 					 thread.start();
 					 sbTherad.add(thread);
 
-					 delay(500);
+					 delay(200);
 					 
 					 //sbTherad[MAX_MOTES] = new Thread(mote);
 					 //sbTherad[MAX_MOTES].start();

@@ -29,13 +29,13 @@ public class NorthboundAPI implements Runnable {
 			BufferedReader in;
 			String msgStr = new String();
 			try {
-				System.out.println("Trying to connect to CORAL server:["+SERVER+"] port:["+PORT+"]...");
+				System.out.println("Trying to connect to CORAL-SDN server:["+SERVER+"] port:["+PORT+"]...");
 				socket = new Socket(SERVER, PORT);				
 				in = new BufferedReader(new InputStreamReader(socket.getInputStream(),"UTF-8"));
-				System.out.println("Connected to CORAL Server!!!");		
+				System.out.println("Connected to CORAL-SDN Server!!!");		
 							
 			    while((msgStr=in.readLine()) != null){
-					System.out.println("Received from Northbound (CORAL): "+msgStr);						
+					System.out.println("["+System.currentTimeMillis()+"] Received from Northbound (CORAL-SDN): "+msgStr);						
 					// Format JSON packet
 					try{
 						JSONParser parser = new JSONParser();
@@ -46,12 +46,12 @@ public class NorthboundAPI implements Runnable {
 						JSONObject packet = new JSONObject();
 						packet = (JSONObject) msg.get("Msg");
 						for(SouthboundAPI sb : ConnectorMain.southbound){ 
-							if(packet.get("NID").equals(sb.nodeId))
+							if(packet.get("BID").equals(sb.nodeId))
 								sb.send(packet);
 						}																							
 					} catch (ParseException e) {
 						if(msgStr.length()>4){
-							System.out.println("JSON Parsing from Northbound Error");
+							System.out.println("JSON Parsing message from CORAL-SDN controller Error");
 							e.printStackTrace();
 						}
 					}  
@@ -59,10 +59,11 @@ public class NorthboundAPI implements Runnable {
 			}
 			catch (IOException e) {
 				socket = null;
-				System.out.println("Disconnected from CORAL server!!!");
+				System.out.println("Disconnected from CORAL-SDN server!!!");
 			} 
 			try {
-				Thread.sleep(5000);
+				Thread.sleep(500);
+				System.out.println("Thread sleep 500ms wating for server!!!");
 			} catch (InterruptedException e) {
 				System.out.println("Thread sleep error!!!");
 			}
@@ -73,7 +74,7 @@ public class NorthboundAPI implements Runnable {
 		while(ConnectorMain.sending==false);
 		ConnectorMain.sending=false;
 		try {			
-			System.out.println("Sending Message to Northbound (CORAL): "+msg);
+			System.out.println("Sending Message to Northbound (CORAL-SDN): "+msg);
 			if (socket != null){	
 				PrintStream write = new PrintStream(socket.getOutputStream());          
 				write.println(msg);

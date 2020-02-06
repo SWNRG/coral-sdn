@@ -32,13 +32,13 @@ public class SouthboundAPI implements Runnable {
 
 		if(motePort.openPort()==true){
 //			a = motePort.getOutputStream();			
-			System.out.println("Bound Rate:"+ motePort.getBaudRate());
-			System.out.println("Parity:"+ motePort.getParity());
-			System.out.println("Write Timeout:"+ motePort.getWriteTimeout());
+			System.out.print("Bound Rate:"+ motePort.getBaudRate());
+			System.out.print(" Parity:"+ motePort.getParity());
+			System.out.println(" Write Timeout:"+ motePort.getWriteTimeout());
 			
 			// Send New Node request {"PTY":"NN"}
 			JSONObject nnmsg = new JSONObject();
-			nnmsg.put("PTY","NN");
+			nnmsg.put("PTY","BR"); // Detect border router
 			send(nnmsg);
 			Scanner scanner = new Scanner(motePort.getInputStream());
 			while(scanner.hasNextLine() ){
@@ -51,8 +51,8 @@ public class SouthboundAPI implements Runnable {
 							JSONObject msg = new JSONObject();
 							msg = (JSONObject) parser.parse(msgStr);	
 							if(msg.get("PTY") != null)
-								if(msg.get("PTY").equals("NN")){
-									nodeId = (String)msg.get("NID");
+								if(msg.get("PTY").equals("BR")){
+									nodeId = (String)msg.get("BID");
 								}
 							JSONObject sendmsg = new JSONObject();
 							sendmsg.put("LC_id", nodeId);
@@ -83,17 +83,18 @@ public class SouthboundAPI implements Runnable {
 	}
 	
 	public void send(JSONObject msg){		
-		System.out.println("Sending to serial (CONTIKI): "+msg);
+		System.out.println("["+System.currentTimeMillis()+"] Sending to serial (CONTIKI): "+msg);
 		try{
 			OutputStream a = motePort.getOutputStream();			
 			
-			String msgstr = msg.toJSONString()+"\n";
+//todel			String msgstr = msg.toJSONString()+"\n";
+			String msgstr = msg.toJSONString();
 			a.write(msgstr.getBytes());
 			a.flush();
-			int z1=0,z2=0;
+		/* todel	int z1=0,z2=0;
 			int x = 10;
-			for(z1=0;z1<1000;z1++)
-			for(z2=0;z2<1000;z2++) x = x/10;
+			for(z1=0;z1<500;z1++)
+			for(z2=0;z2<1000;z2++) x = x/10;*/
 		}
 		catch(Exception e){
 			System.out.println("Error sending to serial port :"+portName+"!!!");
