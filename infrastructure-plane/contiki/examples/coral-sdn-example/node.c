@@ -7,16 +7,12 @@
  
 #include "net/coral-sdn/coral.h"
 #include "net/coral-sdn/coral_node.c"
-
-#ifdef RM090
-	#include "dev/serial-line.h"
-#endif
+//#include "net/coral-sdn/mesh.c"
 
 #define MESSAGE "Hello"
 
 //#define SENDAUTO 1  // Sending
 #define SENDTOSINK 1 // For mobile experiments
-//#define METRICS 0
 //#define PP 0 // For Peer to Peer 
 #define NET_NODES 30    // ????????????????????/ SOS change per simulation
 static int toNode = 1;
@@ -25,7 +21,7 @@ static int toNode = 1;
 #define PERIOD 40    //my experiments with 120
 #endif
 
-#define START_INTERVAL     (60 * CLOCK_SECOND)  // Wait a minute befor you start
+#define START_INTERVAL     (60 * CLOCK_SECOND)  // Wait a minute befor you start  //??? take it back to 60 
 #define SEND_INTERVAL		(PERIOD * CLOCK_SECOND)
 #define SEND_TIME		  		(random_rand() % (SEND_INTERVAL))
 #define MAX_PAYLOAD_LEN	    80
@@ -84,6 +80,9 @@ PROCESS_THREAD(main_coral_process, ev, data){
    
    PRINTF("\nNode Main process event...\n");    
    SENSORS_ACTIVATE(button_sensor);
+
+   PRINTF("ROUTE_CONF_ENTRIES=%d\n",ROUTE_CONF_ENTRIES);
+   PRINTF("DT_CHANNEL=%d\n",DT_CHANNEL);
 
    static int count=0;
    char message[MAX_PAYLOAD_LEN];

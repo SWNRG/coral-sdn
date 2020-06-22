@@ -1,6 +1,6 @@
 /**
  * \file
- *         coral.c Main CORAL mote source code
+ *         coral_br.c CORAL-SDN border router mote source code
  * \author
  *         Tryfon Theodorou <tryfonthe@gmail.com>
  */
@@ -10,7 +10,8 @@
 #include "sys/ctimer.h"
 #include "lib/list.h"
 #include "lib/memb.h"
-#define NUM_PACKET_QUEUE 100  // MAX Size of packet buffer
+
+#define NUM_PACKET_QUEUE 100  // MAX Size of packet buffer queue
 static struct ctimer pkt_timer;
 struct packet_entry {
   struct packet_entry *next;
@@ -20,18 +21,6 @@ struct packet_entry {
 LIST(packet_queue);
 MEMB(packet_mem, struct packet_entry, NUM_PACKET_QUEUE);
 
-
-#ifdef RM090
-	#include "dev/serial-line.h"
-#endif
-
-
-#define LR_U_SEND_EVENT     51
-#define SR_B_SEND_EVENT     52
-
-#define MESSAGE "Hello"
-
-//#define METRICS 1
 
 /*---------------------------------------------------------------------------*/
 PROCESS(LR_u_send_proc, "LR Unicast Send Process");
@@ -679,7 +668,7 @@ static void recv_ruc_callback (struct runicast_conn *c, const linkaddr_t *from, 
    if(LongRangeReceiving > 0){  //LONG RANGE
       PRINTF("From LONG Range\n");
 
-      if(getsubstr(data_buf,0,1,PTY) && !strncmp((char *)PTY,"NN",2)){ // Response to new node request
+      if(getsubstr(data_buf,0,1,PTY) && !strncmp((char *)PTY,"NN",2)){ // Response to New node request
       // if recieved PTY=NN New node solicitation response
       //PAYLOAD:  PTY NID  ENG
       //SIZE(11):  2   4 
@@ -786,9 +775,6 @@ PROCESS_THREAD(print_metrics_process, ev, data){
     PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&periodic_timer));
     etimer_reset(&periodic_timer);
 
-//    printf("R:%d, DAG-VERSION:%d\n",counter, 240); 
-//    printf("R:%d, Imin:%d, Idoubling:%d\n",counter, 8, 8);
-
     printf("R:%d, udp_sent:%d\n",counter,d_send);
     printf("R:%d, udp_recv:%d\n",counter,d_recv);	
     
@@ -797,7 +783,6 @@ PROCESS_THREAD(print_metrics_process, ev, data){
     
     printf("R:%d, ctrl_sent:%d\n",counter,s_send); // Send to Controller 
     printf("R:%d, ctrl_recv:%d\n",counter,s_recv); // Receive from Controller
-//    printf("R:%d, Leaf MODE: %d\n",counter,8);
     
     counter++; //new round of stats
   } 
@@ -807,7 +792,6 @@ PROCESS_THREAD(print_metrics_process, ev, data){
 }
 
 /*---------------------------------------------------------------------------*/
-
 
 
 /* INITIALIZE CORAL-SDN BOREDER ROUTER PROTOCOL */
@@ -842,7 +826,6 @@ void coral_init(){
   serial_line_init();
   uart1_set_input(uart_rx_callback);
 #endif
-
 }
 
-
+/*---------------------------------------------------------------------------*/

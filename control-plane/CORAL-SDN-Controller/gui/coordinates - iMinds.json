@@ -1,0 +1,142 @@
+{
+"Testbed":"iMinds",
+ 
+"nodes":[
+      
+{"id":"43.00",
+ "name":"dssb5",       "type":1,         "realX":600, "realY":1640, "title":"Controler",
+ "class":"controler"},
+{"id":"44.00",
+ "name":"dssc5",       "type":2,
+         "realX":1200,         "realY":1640},
+
+{
+"id":"45.00",
+ "name":"dssd5",       "type":2,
+         "realX":1800,
+         "realY":1640},
+
+{
+"id":"46.00",
+ "name":"dsse5",       "type":2,
+         "realX":2400,
+         "realY":1640},
+{"id":"47.00",
+ "name":"dssf5",       "type":2,
+         "realX":3000,
+         "realY":1640},
+
+{"id":"48.00",
+ "name":"dssg5",       "type":2,
+         "realX":3600,
+         "realY":1640},
+         
+
+{
+"id":"49.00",
+ "name":"dssh5",       "type":2,
+         "realX":4200,
+         "realY":1640},
+         
+{
+"id":"50.00",
+ "name":"dssi5",       "type":2,
+         "realX":4800,
+         "realY":1640},
+
+{"id":"51.00",
+ "name":"dssj5",       "type":2,
+         "realX":5400,
+         "realY":1640},
+
+{"id":"52.00",
+ "name":"dssk5",       "type":2,
+         "realX":6000,
+         "realY":1640},
+
+{
+"id":"60.00",
+ "name":"zotacb1",       "type":2,
+         "realX":600,
+         "realY":200},
+
+{"id":"22.00",
+ "name":"zotacb3",       "type":2,
+         "realX":600,
+         "realY":920},
+
+{"id":"13.00",
+ "name":"zotacd2",       "type":2,
+         "realX":1800,
+         "realY":560},
+
+{"id":"15.00",
+ "name":"zotacf2",       "type":2,
+         "realX":3000,
+         "realY":550},
+
+{"id":"16.00",
+ "name":"zotacg2",       "type":2,
+         "realX":3600,
+         "realY":550},
+
+{
+"id":"17.00",
+ "name":"zotach2",       "type":2,
+         "realX":4200,
+         "realY":550},
+
+{"id":"18.00",
+ "name":"zotaci2",       "type":2,
+         "realX":4800,
+         "realY":550},
+
+{"id":"19.00",
+ "name":"zotacj2",       "type":2,
+         "realX":5400,
+         "realY":550},
+
+{
+"id":"10.00",
+ "name":"zotack1",       "type":2,
+         "realX":5990,
+         "realY":200},
+{
+"id":"20.00",
+ "name":"zotack2",       "type":2,
+         "realX":5990,
+         "realY":550},
+{"id":"38.00",
+ "name":"zotacg4",       "type":2,
+         "realX":3600,
+         "realY":1280}
+,
+{"id":"39.00",
+ "name":"zotach4",       "type":2,
+         "realX":4200,
+         "realY":1280}
+,
+{"id":"42.00",
+ "name":"zotack4",       "type":2,
+         "realX":5990,
+         "realY":1280}
+,
+{"id":"79.00",
+ "name":"mobile9",       "type":2,
+         "realX":500,
+         "realY":150}
+,
+{"id":"80.00",
+ "name":"mobile10",       "type":2,
+         "realX":750,
+         "realY":150}
+,
+{"id":"81.00",
+ "name":"mobile11",       "type":2,
+         "realX":1000,
+         "realY":150}
+]
+}
+
+
+

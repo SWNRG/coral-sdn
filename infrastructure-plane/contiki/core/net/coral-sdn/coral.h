@@ -1,6 +1,6 @@
 /**
  * \file
- *         coral.h Main CORAL mote source code
+ *         coral.h Main CORAL-SDN header file source code
  * \author
  *         Tryfon Theodorou <tryfonthe@gmail.com>
  */
@@ -17,6 +17,7 @@
 #include "dual_conf.h"
 
 #include "mesh.h"
+#include "mesh.c"
 #include "route.h"
 
 #include "net/linkaddr.h"  
@@ -26,7 +27,10 @@
 #include "random.h"
 #include "lib/memb.h"
 
-#define DEBUG 1
+
+//#define METRICS 1  //Enable to print statistics 
+
+#define DEBUG 0
 #if DEBUG 
    #define PRINTF(...) printf(__VA_ARGS__)
 #else
@@ -49,18 +53,19 @@
 	int node_id=2;
 #elif defined RM090
 	#include "node-id.h"
+	#include "dev/serial-line.h"
 #endif
-
-//static struct unicast_conn uc;
-
 
 
 #define UART_BUFFER_SIZE      95 
 #define MAX_RETRANSMISSIONS   6  
 
+#define LR_U_SEND_EVENT     51 // Long Range
+#define SR_B_SEND_EVENT     52 // Short Range
+
 #define DT_CHANNEL 99      // Data Unicast Channel 
 #define BC_CHANNEL 100     // Broadcast Channel
 #define UC_CHANNEL 101     // Unicast Channel 
-#define RUC_CHANNEL 85    // Reliable Channel
+#define RUC_CHANNEL 85     // Reliable Channel
 
  #endif

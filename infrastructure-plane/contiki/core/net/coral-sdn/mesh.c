@@ -210,9 +210,10 @@ mesh_send(struct mesh_conn *c, const linkaddr_t *to)
     PRINTF("mesh_send: could not send\n");
     return 0;
   }
+
   if(c->cb->sent != NULL) {
     c->cb->sent(c);
-  }
+  } 
   return 1;
 }
 /*---------------------------------------------------------------------------*/

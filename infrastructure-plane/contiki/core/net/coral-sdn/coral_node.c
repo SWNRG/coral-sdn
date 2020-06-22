@@ -1,24 +1,16 @@
 /**
  * \file
- *         coral.c Main CORAL mote source code
+ *         coral_node.c CORAL-SDN normal mote source code
  * \author
  *         Tryfon Theodorou <tryfonthe@gmail.com>
  */
  
 #include "coral.h"
 
-#define LR_U_SEND_EVENT     51
-#define SR_B_SEND_EVENT     52
-
-
-//#define METRICS 0
-
-
 /*---------------------------------------------------------------------------*/
 PROCESS(LR_u_send_proc, "LR Unicast Send Process");
 PROCESS(SR_b_send_proc, "SR Broacast Send Process");
 PROCESS(print_metrics_process, "Printing metrics process");
-//AUTOSTART_PROCESSES(&LR_u_send_proc, &SR_b_send_proc, &print_metrics_process);
 /*---------------------------------------------------------------------------*/
 uint8_t mobile_node=0;
 
@@ -92,6 +84,8 @@ void coral_init(){
 
    PRINTF("Initializing route table...\n");
    route_init();
+
+   PRINTF("ROUTE_CONF_ENTRIES=%d\n",ROUTE_CONF_ENTRIES);
 }
 
 /*============================================================================*/
@@ -260,9 +254,6 @@ PROCESS_THREAD(SR_b_send_proc, ev, data) {
 				PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&et));
 			}
 */
-
-
-
 	      //PRINTF("PTR: 2. ND %02u.%02u %01u %01u %01u\n",p->sink.u8[0],p->sink.u8[1],p->TCT,p->ACK,p->RET);
          //PRINTF("VAR: 2. ND %02u.%02u %01u %01u %01u\n",sink.u8[0],sink.u8[1],tcType,tcAck,tcRet); 
 

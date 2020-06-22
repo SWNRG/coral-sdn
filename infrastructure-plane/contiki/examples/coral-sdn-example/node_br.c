@@ -12,14 +12,12 @@
 #include "lib/list.h"
 #include "lib/memb.h"
 
-
 #define MESSAGE "Hello"
 
 //#define SENDAUTO 1  // Sending
 #define SENDTOSINK 1 // For mobile experiments
-//#define METRICS 1
 //#define PP 1 // For Peer to Peer 
-#define NET_NODES 30   // ????????????????????/ SOS change per simulation
+//#define NET_NODES 30   // ????????????????????/ SOS change per PP simulation
 static int toNode =  1;
 
 #ifndef PERIOD

@@ -1,8 +1,0 @@
-Place the project in folder
-home/coral-sdn/contiki/coral-sdn-dataplane/
-
-Contiki should be in:
-home/contiki
-
-Compile for Zolertia with command:
-make TARGET=z1 coral.z1
